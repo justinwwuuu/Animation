@@ -36,8 +36,17 @@ PlaygroundPage.current.liveView = canvas
  */
 
 // Replace this comment with your first comment – what is the goal of the code you're about to write?
+canvas.drawAxes(withScale: true, by:50)
+
 canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
 
+canvas.drawShapesWithBorders = true
+
+canvas.fillColor = Color.white
+
+canvas.drawEllipse(at: Point(x: 150, y: 400), width: 100, height:100)
+
+canvas.drawEllipse (at: Point(x: 125, y: 475), width: 50, height:50,
 /*:
  ## Show the Assistant Editor
  Don't see any results?
