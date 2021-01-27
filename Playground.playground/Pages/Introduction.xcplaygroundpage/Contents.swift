@@ -46,7 +46,7 @@ canvas.fillColor = Color.white
 
 canvas.drawEllipse(at: Point(x: 150, y: 400), width: 100, height:100)
 
-canvas.drawEllipse (at: Point(x: 125, y: 475), width: 50, height:50,
+
 /*:
  ## Show the Assistant Editor
  Don't see any results?
