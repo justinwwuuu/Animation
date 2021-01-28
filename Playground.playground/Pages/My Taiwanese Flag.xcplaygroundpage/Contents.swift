@@ -64,7 +64,6 @@ canvas.fillColor = Color.white
 canvas.drawEllipse (at: Point(x: 150, y: 300), width: 75, height:75)
 
 
-
 canvas.drawShapesWithBorders = false
 
 var triangleVertices: [Point] = []
@@ -80,8 +79,6 @@ triangleVertices.append(Point(x: 140, y:275))
 triangleVertices.append(Point(x: 150, y: 225))
 
 triangleVertices.append(Point(x: 160, y: 275))
-
-
 
 
 
