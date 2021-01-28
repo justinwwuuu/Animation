@@ -58,20 +58,23 @@ for y in stride(from: 0, to: 450, by:70) {
 
 if y==400 {
 
-    canvas.borderColor = Color.red
+    canvas.borderColor = Color.black
 } else {
     canvas.lineColor = Color.white
 }
 
 
+        canvas.defaultLineWidth = 5
 
-canvas.defaultLineWidth = 15
+
 
         canvas.drawLine(from: Point(x: i+10, y:y+0), to: Point(x: i+60, y: y+0))
 
         canvas.drawLine(from: Point(x: i+10, y:y+0), to: Point(x: i+10, y: y+50))
 
-        canvas.drawLine(from: Point(x: i+60, y:y+50), to: Point(x: i+60, y: y+10))
+        canvas.drawLine(from: Point(x: i+60, y:y+50), to: Point(x: i+60, y: y+0))
+ 
+       
 }
 }
 
@@ -137,9 +140,28 @@ canvas.drawEllipse(at: Point(x: 368, y:375), width: 25, height:25)
 canvas.drawEllipse(at: Point(x: 368, y:445), width: 25, height:25)
 
 
+canvas.fillColor = Color.white
+
+canvas.drawEllipse(at: Point(x: 118, y:235), width: 25, height:25)
+
+canvas.drawEllipse(at: Point(x: 118, y:305), width: 25, height:25)
+
+canvas.drawEllipse(at: Point(x: 118, y:375), width: 25, height:25)
+
+canvas.drawEllipse(at: Point(x: 201, y:235), width: 25, height:25)
+
+canvas.drawEllipse(at: Point(x: 201, y:305), width: 25, height:25)
+
+canvas.drawEllipse(at: Point(x: 201, y:375), width: 25, height:25)
 
 
-canvas.drawAxes(withScale: true, by:50)
+canvas.drawEllipse(at: Point(x: 284, y:235), width: 25, height:25)
+
+canvas.drawEllipse(at: Point(x: 284, y:305), width: 25, height:25)
+
+canvas.drawEllipse(at: Point(x: 284, y:375), width: 25, height:25)
+
+
 /*:
  ## Show the Live View
  Don't see any results?
